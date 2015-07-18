@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.phonegap.helloworld"
+        id        = "com.phonegap.tavolo"
         version   = "1.0.0">
 
-    <name>Enjoy Proyect</name>
+    <name>Tavolo Gourmet</name>
 
     <description>
-        Presentación de los servicios de la empresa Enjoy Proyect en Bucaramanga
+        Presentación de la carta del Restaurante Tavolo Gourmet en Bucaramanga
     </description>
 
     <author href="http://www.enjoyproyect.com" email="info@enjoyproyect.com">
@@ -60,7 +60,7 @@
     <gap:plugin name="org.apache.cordova.geolocation" />
     <gap:plugin name="org.apache.cordova.globalization" />
     <gap:plugin name="org.apache.cordova.inappbrowser" />
-	<gap:plugin name="org.apache.cordova.core.inappbrowser" />
+    <gap:plugin name="org.apache.cordova.core.inappbrowser" />
     <gap:plugin name="org.apache.cordova.media" />
     <gap:plugin name="org.apache.cordova.network-information" />
     <gap:plugin name="org.apache.cordova.splashscreen" />
