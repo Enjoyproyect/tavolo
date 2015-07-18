@@ -1,0 +1,23 @@
+{
+  "name": "Tavolo Gourmet",
+  "description": "App web de tavolo gourmet - Restaurante en Bucaramanga",
+  "launch_path": "/",
+  "icons": {
+    "128": "/cos/128.png"
+  },
+  "developer": {
+    "name": "Enjoy Proyect - Bucaramanga",
+    "url": "http://www.enjoyproyect.com"
+  },
+  "default_locale": "es"
+}
+
+"activities": {
+"share": {
+  "filters": {
+    "type": [ "image/png", "image/gif" ]
+  },
+  "href": "foo.html",
+  "disposition": "window"
+}
+}
