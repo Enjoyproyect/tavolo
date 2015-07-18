@@ -1,0 +1,408 @@
+/* General Demo Style */
+@charset "utf-8";
+@import url(../font/stylesheet.css);
+body, html { font-size: 100%; 	padding: 0; margin: 0; height:100%;}
+
+/* Reset */
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+body {
+    color: #000;
+	font-family: 'humanst521_lt_btlight';
+	font-size:105%;
+}
+
+h1{
+	text-align:center;
+	font-size:20px;
+	color:#fff;
+}
+
+a {
+	color: #f0f0f0;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000;
+}
+.main,
+.container > header {
+	width: 100%;
+	margin: 0 auto;
+}
+.main{
+	width: 10%;
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+.title{
+	  width: 75%;
+  display: inline-block;
+  text-align: center;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.container > header nav a {
+	display: block;
+	float: left;
+	position: relative;
+	width: 2.5em;
+	height: 2.5em;
+	background: #fff;
+	border-radius: 50%;
+	color: transparent;
+	margin: 0 0.1em;
+	border: 4px solid #47a3da;
+	text-indent: -8000px;
+}
+
+.container > header nav a:after {
+	content: attr(data-info);
+	color: #47a3da;
+	position: absolute;
+	width: 600%;
+	top: 120%;
+	text-align: right;
+	right: 0;
+	opacity: 0;
+	pointer-events: none;
+}
+
+.container > header nav a:hover:after {
+	opacity: 1;
+}
+
+.container > header nav a:hover {
+	background: #47a3da;
+}
+
+.main > section {
+	max-width:60px;
+}
+
+.main > section h2 {
+	font-weight: 300;
+	color: #ccc;
+}
+
+.main > section button {
+	color: #fff;
+	display: block;
+	width: 150px;
+	cursor: pointer;
+	font-size: 0.8em;
+	min-width:30px;
+	background:#AE181F;
+	display:inline-block;
+	padding:10px 5px;
+	text-align:center;
+	text-decoration:none;
+	box-shadow:0px 3px 0px #373c3c;
+	border-radius:4px;
+	border: none;
+	min-height:30px;
+	font-family: 'humanst521_lt_btlight';
+}
+
+.main > section button:hover {
+	background: #861419;
+}
+
+.main > section button.active {
+	box-shadow:0px 0px 0px;
+	background: #000;
+}
+
+.main > section button.disabled {
+	background: #aaa;
+	pointer-events: none;
+}
+
+.container > header nav a:hover:before {
+	color: #fff;
+	display: inline-block;
+	width: 100%;
+}
+
+header{
+	background-color:#000;
+	padding:0;
+	margin:0;
+	text-align:center;
+	height:10%;
+	border-bottom: 4px solid #fff;
+}
+.ubicacion{
+  color: #FFF;
+  font-size: 90%;
+  padding: 0;
+  border-top: 4px solid #fff;
+  padding: 3%;
+}
+.info{
+	height:80%;
+	text-align:center;
+	vertical-align:middle;
+	background: #000;
+	border-bottom: 4px solid #AE181F;
+	color: #fff;
+}
+.info .portada{
+	background:#000;
+	height:100%;
+}
+/*CONTENIDO - PLATOS DEL MENU*/
+.Table{
+	margin: 0 auto;
+}  
+.Title{
+	display: inline;
+	text-align: center;
+	font-weight: bold;
+	font-size: larger;
+}
+.Title h2{ margin:0; padding-top:1%; color:#AE181F;}
+.Row{
+	display: inline-block;
+	width:30%;
+	vertical-align:top;
+	padding:1%;
+	margin:1%;
+}
+.Cell{
+	display: block;
+	min-height:50px;
+}
+.Cell h3{
+	margin:0;
+	font-weight:bold;
+}
+.adicionales .Cell{
+	width:100%;
+	display:block;
+	min-height:inherit;
+}
+#adicion{
+width:60%;}
+#cafe{
+width:90%;}
+.adicionales .Cell .title{ width:73%; display:inline-block; text-align:left; margin:0; padding:0; text-align:justify;}
+.adicionales .Cell .text{ width:25%; display:inline-block; text-align:right; margin:0; padding:0;}
+.columnas{-moz-column-count: 2;
+-moz-column-gap: 100px;
+-webkit-column-count: 2;
+-webkit-column-gap: 100px;
+column-count: 2;
+column-gap: 100px;}
+#dere{width:100%!important;}
+#evento{background: rgba(0, 0, 0, 0.90); height:100%; width:40%; display:inline-block;}
+.indice{background: url(../images/galeria/sitio3.JPG)no-repeat center center fixed; background-size:cover; height:100%;}
+footer{
+	font-family: 'Oswald';
+	font-size:90%;
+	width: 100%;
+	margin: 0px auto;
+	height:10%;
+	}
+footer a {
+	color: #000;
+	}
+.social{
+	vertical-align:middle;
+	padding-top:1%;
+}
+.social ul{
+	text-align:center;
+	margin: 0;
+	padding:0;
+}
+.social li{
+	display:inline-block;
+	}
+.tripadvisor {
+  width: 37px;
+  border-radius: 6px;
+  vertical-align: sub;
+}
+/* General styles for all menus */
+.cbp-spmenu {
+	background: #AE181F ;
+	position: fixed;
+}
+
+.cbp-spmenu #indice {
+	color: #fff;
+	font-size: 1.1em;
+	margin: 0;
+	font-weight: 300;
+	background: #861419;
+}
+
+.cbp-spmenu a {
+	display: block;
+	color: #fff;
+	font-size: 1em;
+	font-weight: 300;
+}
+
+.cbp-spmenu a:hover {
+	background: #000;
+}
+
+.cbp-spmenu a:active {
+	background: #afdefa;
+	color: #47a3da;
+}
+
+/* Orientation-dependent styles for the content of the menu */
+
+.cbp-spmenu-vertical {
+	width: 240px;
+	height: 100%;
+	top: 0;
+	z-index: 1000;
+}
+
+.cbp-spmenu-vertical a {
+	border-bottom: 1px solid #861419;
+	padding: 5px;
+}
+
+
+/* Vertical menu that slides from the left or right */
+
+.cbp-spmenu-left {
+	left: -240px;
+}
+
+.cbp-spmenu-left.cbp-spmenu-open {
+	left: 0px;
+}
+
+/* Push classes applied to the body */
+
+.cbp-spmenu-push {
+	overflow-x: hidden;
+	position: relative;
+	left: 0;
+}
+
+.cbp-spmenu-push-toright {
+	left: 240px;
+}
+
+/* Transitions */
+
+.cbp-spmenu,
+.cbp-spmenu-push {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.boton{
+	background:#AE181F;
+	color:#fff;
+	display:inline-block;
+	padding:10px 5px;
+	text-align:center;
+	text-decoration:none;
+	box-shadow:0px 3px 0px #373c3c;
+	border-radius:4px;
+	min-width:30px;
+	min-height:30px;
+	text-align:center; 
+	width:150px;
+}
+.boton:hover{
+	box-shadow:0px 0px 0px;
+	background: #861419;
+	color:#fff;
+}
+.imagen{display:inline-block; width:59%; vertical-align:top; background: url('../images/galeria/sitio4.JPG') no-repeat center center / cover; height:100%;}
+@media screen and (max-width: 768px){
+	header{
+	height:60px;
+	position:fixed;
+	top:0;
+	width:100%;
+	}
+	.info{
+	height:auto;
+	padding-top:60px;
+	padding-bottom:22%;
+	}
+	.info #primera{
+	padding-bottom:0;
+	}
+	.portada{
+	min-height:550px;
+	padding-bottom:0;
+	}
+	footer{
+	height:auto;
+	background:#fff;
+	border-top: 4px solid #AE181F;
+	position:fixed;
+	bottom:0;
+	width:100%;
+	}
+	.Row{
+	display: block;
+	width:98%;
+	vertical-align:top;
+	padding:0.5%;
+	margin:1%;
+	}
+	#adicion{
+	display: block;
+	width: 98%;
+	}
+	.main > section button , .boton{
+	width:30px;}
+	.columnas{-moz-column-count: 1;
+-moz-column-gap: 0px;
+-webkit-column-count: 1;
+-webkit-column-gap: 0px;
+column-count: 1;
+column-gap: 0px;}
+.ocul{
+display:none;}
+.portada .imagen{display:block; width:100%;min-height: 450px;}
+#evento{display:block; width:100%;}
+.indice{min-height: 650px;}
+}
+@media screen and (max-height: 26.375em){
+
+	.cbp-spmenu-vertical {
+		font-size: 90%;
+		width: 190px;
+	}
+
+	.cbp-spmenu-left,
+	.cbp-spmenu-push-toleft {
+		left: -190px;
+	}
+
+}
+

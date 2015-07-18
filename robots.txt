@@ -1,0 +1,7 @@
+sitemap:
+
+http://www.tavologourmet.com/sitemap.xml
+
+
+User-agent: *
+Disallow: 

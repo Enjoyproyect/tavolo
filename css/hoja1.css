@@ -1,0 +1,279 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	}
+html,section{height:100%;}
+body{
+	color:#000;
+	font-family: 'steelfishregular';
+	height:100%
+	}
+a{	
+	text-decoration:none;
+	}
+
+h1,h2{
+	Color:#000;
+	font-size:120%;
+	margin:0 0;
+	text-shadow:none;
+	}
+h6{
+	text-align:right;
+	}
+img{
+	border:none;
+	}
+header{
+	background-color:#000;
+	padding:0;
+	margin:0;
+	text-align:center;
+	height:20%;
+	border-bottom: 4px solid #fff;
+	}
+#logo{
+	height:70%;
+	padding-top:1em;
+	}
+nav{	
+	text-align:center;
+	height:30%;
+	}
+nav ul li{
+	display:inline-block;
+	vertical-align:baseline;
+	}
+nav li a {
+	color:#fff;
+	}
+.main{
+	width:100%;
+	height: 60%;
+	padding: 0;
+	border-bottom: 4px solid #AE181F;
+	}	
+.galeria{
+	display:inline-block;
+	width:49%;
+}
+footer{
+	font-family: 'humanst521_lt_btlight';
+	font-size:90%;
+	width: 100%;
+	margin: 0px auto;
+	height:17%;
+	}
+footer a {
+	color: #000;
+	}
+.bloque1{
+		padding-top:1%;
+	}
+.bloque1 .social, .bloque1 .ubicacion{
+	width:49%;
+	display:inline-block;
+	vertical-align:middle;
+	text-align:center;
+}
+.ze_tiles_btn li{
+font-weight:normal!important;}
+.social li{
+	display:inline-block;
+	}
+.ubicacion{
+	font-size:110%;
+	}
+.bloque2{
+	display: block;
+	height: 3%;
+	width:100%;
+	vertical-align:baseline;
+	background-color: #ccc;
+	}
+#menu-movil{
+	display:none;
+}
+#menu-escritorio{
+	display:block;
+}
+#form{
+	width:100%;
+	height:100%;
+	display:inline-block;
+
+	}
+#formulario{
+  width: 46%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 3%;
+  font-family:'humanst521_lt_btlight';
+}
+#formulario input, select{
+width:100%;
+height:25px;
+}
+#formulario textarea{
+width:100%;
+height:50px;
+}
+#formulario label{
+font-weight:bold;
+}
+header form select{
+width: 100%;
+height: 32px;
+background: rgb(173, 20, 20) none repeat scroll 0% 0%;
+color: white;
+text-align: center;
+text-transform: uppercase;
+}
+#foto{
+	width:48%; 
+	margin:1%; 
+	display:inline-block;
+	vertical-align:middle;
+	}
+#youtube{
+	display:inline-block;
+	width:98%;
+	vertical-align:top;}
+.tripadvisor{
+width: 37px;
+border-radius: 6px;
+vertical-align: sub;
+}
+.pag-galeria{
+	text-align:center;
+	vertical-align:middle;
+	width:100%;
+	padding-top:2%;
+	height:auto;
+}
+
+.boton{
+	background:#AE181F;
+	color:#fff;
+	display:inline-block;
+	padding:5px 0;
+	text-align:center;
+	width:150px;
+	text-decoration:none;
+	box-shadow:0px 3px 0px #373c3c;
+	border-radius:4px;
+	border:0;
+}
+.boton:hover{
+	box-shadow:0px 0px 0px;
+	background: #741216;
+	-moz-transform: translateX(0px) translateY(2px);
+	-webkit-transform: translateX(0px) translateY(2px);
+	-o-transform: translateX(0px) translateY(2px);
+	-ms-transform: translateX(0px) translateY(2px);
+	transform: translateX(0px) translateY(2px);
+}
+.main #gal{
+height:auto;}
+	
+@media screen and (max-width:1000px){
+	.main,
+	.header,
+	.footer{
+	height:auto;
+	display:block;
+	}
+}
+
+@media screen and (max-width:935px){
+	html,body,section{
+	 height:auto;
+	}
+	#menu-escritorio{
+	display:none;
+	}
+	#menu-movil{
+	display:block;
+	}
+	hr{
+	height:4px;}
+		.especial{
+		display:block;
+		margin-left:none;
+		width:100%;
+		height:10%;}
+	.redes{
+	width:40%;}
+	#banner-fade,
+	#banner-slide{
+	display:block;
+	margin: 1%;
+	width:98%;}
+		footer{
+	padding:0;}
+	.tripad{
+	display:block;
+	width:98%;
+	margin:1%;
+	}
+	#domicilios, #marquee, #senal{
+	text-align:center;
+	padding:1%;
+	}
+	.menumulti2{
+	display: block;
+	text-decoration: none;
+	vertical-align:none;
+	width:98%;
+	margin:1%;
+	}
+	#formulario{
+	width: 96%;
+	margin: 2%;
+	}
+	#foto{
+	display:none;
+	}
+	#form{
+	width:100%;}
+	#boxes #dialog {
+	width:50%;
+	}
+}
+@media screen and (max-width:768px){
+	*{
+		font-size:17px;}
+	html,body,section,header,footer{
+	 height:auto;
+	 display: block;
+	}
+	header{
+	height:120px;
+	}	
+	.main{
+	height:454px;
+	}
+	.gal{
+	height:auto!important;}
+	.main section, #slider-container, .slider-element, .element-4, .element-3, .element-2, .element-1{
+	height: 450px;
+	}
+	#slider-container, .slider-element{
+	max-height:450px!important;
+	}
+	.social, .ubicacion{
+	display:block!important;
+	width: 100%!important;
+	margin-bottom: 10px;
+	}
+
+}
+@media screen and (max-width:415px){
+	#content1 h2, #content2 h2, #content3 h2, #content4 h2{
+		font-size:35px!important;
+	}
+}
+

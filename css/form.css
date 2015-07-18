@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+#formulario {
+	font-family: 'dominikregular';
+	width:41%;
+ 	text-shadow:none;
+	font-weight:bold;
+	display:inline-block;
+	vertical-align:top;
+	
+}
+#formulario label{
+	color:#F00;
+	display: inline-block;
+	width:105px; 
+    padding-top:5px;
+}
+ 
+#formulario input{
+	width:300px;
+	margin-bottom: 5px;
+	background-color:#CCC;
+	color:#FFF;
+	font-weight:bold;
+}
+
+#formulario select{
+	width:300px;
+	margin-bottom: 5px;
+	background-color:#CCC;
+	color:#FFF;
+	font-weight:bold;
+}
+ 
+#formulario textarea{
+	width:300px;
+	height: 150px;
+	margin-bottom: 5px;
+	background-color:#CCC;
+	color:#FFF;
+	font-weight:bold;
+	resize:both;
+}
+ 
+#formulario .botonAcceder{
+	width: 50px;
+	height: 40px;
+	background-image:url(../images/enviar.png);
+	border:none;
+	color:transparent;
+	background-color:transparent;
+	vertical-align:bottom;
+}
+ 
+#formulario #aster {
+	color:#ff0000;
+}
+#textoContacto {
+	color:red;
+}
